@@ -1,0 +1,46 @@
+{
+  "name": "agentstack-api",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "webpack-watch-server --config webpack.config.js"
+  },
+  "author": "Naji Atallah",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.17.3",
+    "rimraf": "^2.6.2",
+    "webpack": "^4.6.0"
+  },
+  "dependencies": {
+    "bcrypt": "^2.0.1",
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.2.1",
+    "mongoose": "^5.0.15",
+    "mongoose-paginate": "^5.0.3",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "webpack-watch-server": "^1.2.1"
+  },
+  "babel": {
+    "presets": [
+      [
+        "env",
+        {
+          "targets": {
+            "node": "current"
+          }
+        }
+      ]
+    ],
+    "sourceMaps": true,
+    "retainLines": true
+  }
+}
