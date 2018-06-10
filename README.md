@@ -1,6 +1,6 @@
 ## MEAN Stack using Angular 5
 
-This application was created in order to show how we can create a MEAN stack application from scratch where the frontend and the backend are completely seperated from each other and can be easily replaced. This application uses MongoDB, ExpressJS, Angular 5, and NodeJS.
+This application was created in order to show how we can create a MEAN stack application from scratch where the frontend and the backend are completely separated from each other and can be easily replaced. This application uses MongoDB, ExpressJS, Angular 5, and NodeJS.
 
 ## Requirements
 
@@ -11,7 +11,8 @@ This application was created in order to show how we can create a MEAN stack app
 ## Description
 
 The main focus of this application is to demonstrate three layers. the parent layer where it has its own package.json file and once run, it will run the web and the api layers at the same time. the api layer where you can run it on its own, and a web layer where you can run it on its own also.
-Comming soon will be adding few pages to the angular app in order o perform CRUD operation using the api.
+
+Coming soon, I will be adding few pages to the angular app in order to perform CRUD operation using the api.
 
 ## Installation
 
@@ -34,7 +35,7 @@ $ cd web
 $ npm install
 ```
 
-3- Once installatiohn is complete. Navigate to the root directory (MEAN) and then run the following.  
+3- Once installation is complete. Navigate to the root directory (MEAN) and then run the following.  
 
 ```
 $ npm start
@@ -44,7 +45,7 @@ this command will run the web and the api together
 
 you can access the angular app at http://localhost:4200
 
-You cane access API at: http://localhost:3000
+You can access API at: http://localhost:3000
 
 You can run the web or the api by themselves by navigating to there respective folders and running npm start.
 
