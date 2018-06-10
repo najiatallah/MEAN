@@ -43,6 +43,7 @@ $ npm start
 this command will run the web and the api together
 
 you can access the angular app at http://localhost:4200
+
 You cane access API at: http://localhost:3000
 
 You can run the web or the api by themselves by navigating to there respective folders and running npm start.
